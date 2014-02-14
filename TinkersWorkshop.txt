@@ -113,6 +113,7 @@ block {
 ####################
 
 "difficulty changes" {
+    B:"Allow creation of endstone"=true
     B:"Craft Stencil Tables"=true
     B:"Craft metals with Wood Patterns"=false
     B:"Craft vanilla metal blocks"=true
@@ -128,7 +129,7 @@ block {
     B:"Enable mod stone tools"=true
     B:"Enable mod wooden tools"=true
     B:"Keep hunger on death"=false
-    B:"Keep levels on death"=false
+    B:"Keep levels on death"=true
     B:"Lower bronze output to 2 ingots"=false
     B:"Modifiers increase Mining Level"=true
     B:"Remove Vanilla Tool Recipes"=false
@@ -194,6 +195,15 @@ experimental {
 
 general {
     I:"Sea level"=64
+}
+
+
+####################
+# logging
+####################
+
+logging {
+    B:"Disable tool build messages"=false
 }
 
 
@@ -335,7 +345,7 @@ tools {
 
 "ultra hardcore changes" {
     # Gives all tier 1 patterns when pattern chest is placed
-    B:"Add Patterns to Pattern Chests"=true
+    B:"Add Patterns to Pattern Chests"=false
     B:"Add World Border"=false
 
     # Makes recipes for gold apples, carrots, and melon potions more expensive
